@@ -1,0 +1,466 @@
+.TodoBox {
+    position: relative;
+    width: 700px;
+    height: 530px;
+    left: 270px;
+    top: 130px;
+    padding: 20px;   
+}
+
+.MainHead{
+    font-size: xx-large;
+    font-weight: 900;
+}
+.MainHead1{
+    font-size: 25px;
+}
+.MainHead-left{   
+    position: absolute;
+    left: 90px;
+    top: 23px;  
+}
+.MainHead-font{
+    color: rgb(128, 122, 122);
+    font-size: xx-large;
+}
+.MainHead-right{
+    position: absolute;
+    right: 123px;
+    top: 30px;
+}
+
+.Icon{
+    color: red;
+    font-size: 18px;
+    margin-right: 6px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+a{
+    text-decoration: none;
+    color: rgb(226, 78, 78);
+}
+
+.Card1{
+    width: 177px;
+    height: 239px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99 40 40);
+    position: absolute;
+    left: 96px;
+    top: 85px;
+}
+.Card2{
+    width: 177px;
+    height: 239px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99 40 40);
+    position: absolute;
+    left: 292px;
+    top: 85px;
+}
+.Card3{
+    width: 177px;
+    height: 238px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99 40 40);
+    position: absolute;
+    left: 490px;
+    top: 85px;
+}
+.Card4{
+    width: 177px;
+    height: 238px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99 40 40);
+    position: absolute;
+    left: 96px;
+    top: 350px;
+}
+.Card5{
+    width: 177px;
+    height: 238px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99 40 40);
+    position: absolute;
+    left: 292px;
+    top: 350px;
+}
+/* .Card6{
+    width: 130px;
+    height: 200px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99, 40, 40);
+    position: absolute;
+   left: 490px;
+   top: 310px;   
+} */
+
+.Card-content1{
+    color: red;
+    text-decoration: line-through;
+    position: absolute;
+    left: 39px;
+    top: 75px;
+    font-size: large;
+}
+.Card-content2 {
+    position: absolute;
+    left: 8px;
+    top: 110px;
+    font-size: large;
+}
+
+.TripHead-border{
+    width: 136px;
+    height: 30px;
+    position: absolute;
+    left: 41px;
+    top: 17px;
+    font-size: larger;
+    border-bottom: 2px solid grey;
+} 
+.Card-heading{
+    color: red;
+    padding-left: 30px;  
+}
+.ParisCard-content1 {
+    color: red;
+    text-decoration: line-through;
+    position: absolute;
+    left: 93px;
+    top: 73px;
+    font-size: large;
+}
+.ParisCard-content2 {   
+    position: absolute;
+    font-size: large;
+    left: 30px;
+    top: 120px;
+}
+.pooja{
+    font-size: large;
+}
+   
+.Back-btn {
+    position: absolute;
+    left: 362px;
+    top: 95px;
+}
+.ParisAdd-btn{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.ParisCard {
+    width: 274px;
+    height: 271px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99 40 40);
+    position: absolute;
+    left: 242px;
+    top: 152px;
+}
+.back{
+    position: relative;
+    left: -28px;
+    top: -12px;
+}
+
+.ParisHead {
+    position: absolute;
+    left: 304px;
+    top: 50px;
+    font-size: x-large;
+    font-weight: 900;
+    background-color: white;
+}
+.ParisHead-line {
+    width: 267px;
+    height: 0px;
+    position: absolute;
+    left: 239px;
+    top: 64px;
+    border-bottom: 1px solid grey;
+}
+.ParisHead-border {
+    width: 186px;
+    height: 30px;
+    position: absolute;
+    left: 89px;
+    font-size: larger;
+    top: 20px;
+    border-bottom: 2px solid grey;
+}
+.Back-icon{
+    position: absolute;
+    left: 340px;
+    top: 94px;
+    color: #ff6a6a;
+    font-size: 18px;
+    margin-right: 6px;
+}
+
+.TodoBox-filter {
+    filter: blur(10px);
+}
+
+.AddList-box-border{
+    position: relative;
+    width: 700px;
+    height: 450px;
+    left: 270px;
+    top: 130px;
+    padding: 20px;
+}
+
+.AddList {
+    text-align: center;
+    color: #ff6a6a;
+    padding: 10px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99 40 40);
+    position: fixed;
+    top: 250px;
+    left: 540px;
+    background: white;
+}
+.Add-btn {
+    width: 60px;
+    background-color: #ff6a6a;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius:20px;
+  }
+.AddItem {
+    width: 235px;
+    text-align: center;
+    color: #ff6a6a;
+    padding: 10px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(99 40 40);
+    position: fixed;
+    top: 310px;
+    left: 530px;
+    background: white;
+}
+
+@media screen and (max-width:360px){
+    .TodoBox {
+        left: 0px;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        position: relative;
+        width: 318px;
+        height: 450px;
+        box-shadow: 1px 1px 1px  rgb(223, 207, 207);   
+    }
+
+    .MainHead{
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .MainHead1{
+        font-size: 22px;
+    }
+    .MainHead-left{ 
+        position: absolute;
+        left: 22px;
+        top: 20px;  
+    }
+    .MainHead-font{
+        color: rgb(128, 122, 122);
+    } 
+    .MainAdd-font{
+        display: none;
+    }
+    .MainHead-right{
+        position: absolute;
+        right: 22px;
+        top: 20px;   
+    }
+    .Icon{
+        color: #ff6a6a;
+        font-size: 25px;
+        margin-right: 6px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(95, 93, 93);
+    }
+    
+    .Card1{
+        width: 300px;
+        height: 50px;
+        border: 1px solid salmon;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px rgb(99 40 40);
+        position: absolute;
+        left: 25px;
+        top: 107px;
+    }
+    .Card2{
+        width: 300px;
+        height: 50px;
+        border: 1px solid salmon;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px rgb(99 40 40);
+        position: absolute;
+        left: 25px;
+        top: 170px;
+    }
+    .Card3{
+        width: 300px;
+        height: 50px;
+        border: 1px solid salmon;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px rgb(99 40 40);
+        position: absolute;
+        left: 25px;
+        top: 236px;
+    }
+    .Card4{
+        width: 300px;
+        height: 50px;
+        border: 1px solid salmon;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px rgb(99 40 40);
+        position: absolute;
+        left: 25px;
+        top: 305px;
+    }
+    .Card5{
+        width: 300px;
+        height: 50px;
+        border: 1px solid salmon;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px rgb(99 40 40);
+        position: absolute;
+        left: 25px;
+        top: 371px;
+    }
+    .Card6{
+        width: 300px;
+        height: 50px;
+        border: 1px solid salmon;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px rgb(99, 40, 40);
+        position: absolute;
+        left: 25px;
+        top: 410px;
+    }
+    .Card-content1{
+        color: red;
+        text-decoration: line-through;
+        position: absolute;
+        left: 22px;
+        top: 62px;
+        display: none;
+    }
+    .Card-content2 {
+        position: absolute;
+        left: 0px;
+        top: 92px;
+        display: none;
+    }
+
+    .TripHead-border{
+        border: none;
+    }
+
+    .AddList-box-border{
+        position: relative;
+        width: 318px;
+        height: 450px;
+    }
+
+    .AddList {
+        text-align: center;
+        color: #ff6a6a;
+        padding: 10px;
+        border: 1px solid salmon;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px rgb(99 40 40);
+        position: fixed;
+        top: 190px;
+        left: 90px;
+        background: white;
+    }
+    .AddItem {
+        width: 235px;
+        text-align: center;
+        color: #ff6a6a;
+        padding: 10px;
+        border: 1px solid salmon;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px rgb(99 40 40);
+        position: fixed;
+        top: 190px;
+        left: 52px;
+        background: white;
+    }
+    .ParisHead {
+        position: absolute;
+        left: 108px;
+        top: 50px;
+        font-size: 25px;
+        font-weight: 900;
+        background-color: white;
+    }
+    .ParisHead-line {
+        width: 211px;
+        height: 0px;
+        position: absolute;
+        left: 70px;
+        top: 64px;
+        border-bottom: 1px solid grey;
+    }
+    .ParisHead-border {
+        width: 158px;
+        height: 30px;
+        position: absolute;
+        left: 92px;
+        top: 20px;
+        border-bottom: 2px solid grey;
+    }
+    .Back-icon{
+        position: absolute;
+        left: 180px;
+        top: 94px;
+        
+        color: #ff6a6a;
+        font-size: 18px;
+        margin-right: 6px;
+    }
+
+    .Back-btn {
+        display: none;
+    }
+    .ParisCard {
+        width: 250px;
+        height: 250px;
+        border: 1px solid salmon;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px rgb(99 40 40);
+        position: absolute;
+        left: 51px;
+        top: 156px;
+    }
+
+}
